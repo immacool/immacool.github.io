@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
-	<title>Invaders!!!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Log in</title>
 </head>
-
 <body>
-    <div class="alert">
-        <h3 class="title">Вторжение!!!</h3>
-        <p>
-            Это пришельцы, и они пришли сюда за печеньем и кошко-тянками.<br>
-            И теперь, у каждого из вас есть шанс спасти мир.<br>
-            Посоветуйте им хорошее аниме и у человечества будет будущее!<br>
-            А так же вы получите бесплатный + в карму.<br>
-            <div class="invaders-art">
-                ░░░░░░░▀▄░░░▄▀░░░░░░░░▀▄░░░▄▀░░░░░░░░▀▄░░░▄▀░░░░░░░<br>
-                ░░░░░░▄█▀███▀█▄░░░░░░▄█▀███▀█▄░░░░░░▄█▀███▀█▄░░░░░░<br>
-                ░░░░░█▀███████▀█░░░░█▀███████▀█░░░░█▀███████▀█░░░░░<br>
-                ░░░░░█░█▀▀▀▀▀█░█░░░░█░█▀▀▀▀▀█░█░░░░█░█▀▀▀▀▀█░█░░░░░<br>
-                ░░░░░░░░▀▀░▀▀░░░░░░░░░░▀▀░▀▀░░░░░░░░░░▀▀░▀▀░░░░░░░░<br>
-            </div>
-            Ну а если судьба человекчества вам безразлична, и вы здесь по другой причине, то тыцкайте на кнопоцку.
-        </p>
-        
+    <div class="parent">
+        <div class="login-panel">
+            <label for="name">Фамилия Имя:</label>
+            <input id="name" type="text" placeholder="Жужелица Жужжащяя" autocomplete="off">
+            <br>
+            <label for="uid">Идентификатор:</label>
+            <input id="uid" type="text" placeholder="uay1894fbuawye524euf" autocomplete="off">
+            <br>
+            <label for="level">Желаемый уровень:</label>
+            <input id="level" type="number" placeholder="от 1 до 15" autocomplete="off" min="1" max="15">
+            <br>
+            <input id="send" type="submit" value="Отправить">
+        </div>
     </div>
 </body>
 </html>
